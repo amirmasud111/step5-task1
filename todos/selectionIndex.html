@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+           body{
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: black;
+     }
+        #Mother{
+            height: 100px;
+           
+            margin:15%;
+            padding-left: 25%;
+        }
+        .btns{
+               width: 15%;
+               border: none;
+               background-color: rgb(161, 219, 200);
+               cursor: pointer;
+               outline: none;
+               border-radius:20px;
+               height: 70%;
+               font-weight: bold;
+               box-shadow: 0px 0px 20px rgb(204, 220, 236);
+              
+        }
+        .btns:hover{
+            background-color: rgb(44, 202, 207);
+              
+               
+              
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="Mother">
+        <a href='http://localhost:8080/signUpPage'> <button class="btns" id="signUp" onclick="enterSignUpPage()">Sign up</button></a>
+        <a href='http://localhost:8080/signInPage'> <button class="btns" id="signIn">Sign in</button></a>
+            <a href='http://localhost:8080/'> <button class="btns" id="guest">Guest</button></a>
+    </div>
+    <script src="selectionIndex.js"></script>
+</body>
+
+</html>

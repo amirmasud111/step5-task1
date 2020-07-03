@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     body{
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         background-color: black;
+     }
+     #second{
+       background-color: rgb(161, 219, 200);
+        width: 21%;
+        height: 320px;
+        margin:100px auto;
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px rgb(67, 224, 172); 
+
+     }
+     .secondDivs{
+        
+         height: 19.5%;
+           text-align: center;
+     }
+     .textFirstSpan{
+         font-size: 25px;
+         font-weight: bold;
+     }
+     .textFirstDiv{
+           line-height: 350%;
+     }
+     .usersIn{
+        width: 80%;
+         font-weight: bold;
+        height: 50%;
+        margin-top: 4%;
+        background-color:  rgb(195, 244, 247);
+        border-radius:10px;
+     }
+     #entering{
+         font-weight: bold;
+        height: 50%;
+        margin-top: 4%;
+        border-radius:10px;
+        background-color:  rgb(195, 244, 247);
+     }
+     #entering:hover{
+         background-color:  rgb(44, 202, 207);
+         outline: none;
+     }
+     #entering:focus{
+          outline: none;
+         
+     }
+     .usersIn:focus{
+          outline: none;
+         
+     }
+     #lastrow{
+         margin:5% auto;
+     }
+     a{
+        text-decoration: none;
+        font-weight: bold;
+     }
+    </style>
+</head>
+
+<body>
+    <div id="second">
+        <div class="secondDivs textFirstDiv"><span class="textFirstSpan">Sign in</span></div>
+        <div class="secondDivs"><input type="text" class="usersIn" placeholder="Username"></div>
+        <div class="secondDivs"><input type="text" class="usersIn" placeholder="Password"></div>
+        <div class="secondDivs"><button id="entering" onclick="enterMainPage()">Enter!</div>
+        <div class="secondDivs"><div id="lastrow"><a href="#">Register here! </a></div></div>
+    </div>
+    <script src="SignIn.js"></script>
+    <script src="SignUp.js"></script>
+</body>
+
+</html>
